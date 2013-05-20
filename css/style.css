@@ -1,0 +1,131 @@
+html {
+	background-color: #c8d6b9;
+    margin: 0;              /* Amount of negative space around the outside of the body */
+    padding: 0;             /* Amount of negative space around the inside of the body */
+/*    overflow-y:scroll !important;
+    overflow-x:hidden !important;
+    overflow: -moz-scrollbars-vertical;*/
+
+}
+
+
+body {
+    background-color: #c8d6b9; /* Background color */
+    color: #222;            /* Foreground color used for text */
+    font-family: Helvetica; 
+    font-size: 16px;
+    margin: 0;              /* Amount of negative space around the outside of the body */
+    padding: 0;             /* Amount of negative space around the inside of the body */
+}
+
+#blank {
+	display:block;
+	height : 5px;
+}
+
+#header {
+/*	position: fixed;*/
+	width : 100%;
+	z-index : 1;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* page first link, title */
+#header h1 a {
+    background-color: #8cc641;
+    border-bottom: 1px solid #FFF;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #222;
+}
+
+#content {
+/*	position : relative;
+	margin-top : 44px;*/
+	z-index: 0
+}
+
+#content h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#content ul {
+    list-style: none;
+    margin: 0px;
+	margin-left : 5px;
+	margin-right : 5px;    
+	padding: 0;
+}
+
+#content ul li {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #222222;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    text-decoration: none;
+	padding-top : 9px;
+	padding-bottom : 9px;
+}
+
+#content ul li:hover {
+    background-color: #d9ffa9;
+}
+
+#content a {
+    color: #222222;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 10px ;
+    text-decoration: none;
+}
+
+#nowPlaying  {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #222222;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    text-decoration: none;
+    padding-top : 1px;
+    padding-bottom : 1px;
+	padding-right : 10px;
+	padding-left : 10px;
+	margin-left : 5px;
+	margin-right : 5px;
+	margin-bottom : 5px;
+
+}
+
+table, tr, td {
+    margin: 0px;
+    padding: 0px;
+}
+
+#border_right  {
+	border-right : 1px solid;
+}
+
+#footer {
+    display: none;
+}
+
+img {
+	border: none;
+}
+

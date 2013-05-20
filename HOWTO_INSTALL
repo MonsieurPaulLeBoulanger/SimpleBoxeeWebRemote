@@ -1,0 +1,32 @@
+________________________________________________
+simple boxee remote web remote v0.3 - 15/01/2012
+by MonsieurPaulLeBoulanger
+
+
+Install :
+unzip the archive on your webserver ie :
+/var/www/boxee
+
+
+
+edit the config.php file (ip, ports, user etc)
+
+
+
+
+start your boxeebox
+
+start the pairing process pointing to http://yourwebserver/boxee/pair.php
+
+
+
+
+Versions :
+
+v0.3 : css : position:absolute on header id, hover added
+
+v0.2 : bug fix -> remove "target" in links
+	   thanks to dkroetsch (http://forums.boxee.tv/showthread.php?t=47857&p=239219#post239219)
+       for the throw-a-link-to-the-boxee-box function
+
+v0.1 : initial release
