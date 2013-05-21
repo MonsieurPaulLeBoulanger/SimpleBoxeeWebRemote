@@ -1,6 +1,6 @@
 ________________________________________________
-simple boxee remote web remote v0.3 - 15/01/2012
-
+simple boxee remote web remote 
+==============================
 
 Simple Boxee Web Remote is a... simple remote control for boxeebox written in php.
 
@@ -21,4 +21,3 @@ http://www.xbmcfreak.nl/?lang=en
 
 
 
-released under the GNU GENERAL PUBLIC LICENSE Version 3
